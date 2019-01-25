@@ -1,0 +1,160 @@
+body {
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+		background-color: white;
+		margin: 0px;
+
+	}
+
+
+	.title {
+
+
+		font-size: 35px;
+		color: black;
+		font-family: 'Montserrat', sans-serif;
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		height: 100px;
+
+	}
+
+
+	.header ul {
+
+
+		display: flex;
+		font-family: 'Montserrat', sans-serif;
+		font-size: 18px;
+		justify-content: center;
+
+
+	}
+
+	
+	#blog {
+		text-decoration: underline;
+	}
+
+	.footer {
+		margin-left: 10px;
+		margin-top: 0px;
+	}
+
+
+	.other-websites h2 {
+		font-size: 30px;
+	}
+
+
+	.other-websites a {
+		font-size: 14px;
+	}
+
+
+	.grow a {
+		-webkit-transition: font-size 0.01s;
+		-ms-transition: font-size 0.01s;
+		-moz-transition: font-size 0.01s;
+		opacity: 0.9;
+	}
+
+
+	.grow a:hover {
+		font-size: 16px;
+	}
+
+
+	.social-media {
+		padding-top: 20px;
+		display: flex;
+	}
+
+
+	.social-media img {
+		padding-right: 10px;
+	}
+
+
+	.social-media img:hover {
+		opacity: 0.4;
+	}
+
+
+	.facebook {
+		font-size: 100%;
+	}
+
+
+	.linkedin {
+		font-size: 100%;
+	}
+
+
+	.github {
+		font-size: 100%;
+	}
+
+
+	#home {
+		display: inline-flex;
+		border-color: black;
+	}
+
+
+	#home a {
+		color: #0CD3C9;
+	}
+
+
+	#home:hover a {
+		color: black;
+	}
+
+
+	li {
+		display: inline-flex;
+		padding-left: 25px;
+		padding-right: 25px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+		margin-bottom: 40px;
+		border: 2px;
+		border-style: solid;
+		border-color: black;
+		color: black;
+	}
+
+
+	li:hover {
+		background-color: #0CD3C9;
+	}
+
+
+	a:link {
+		text-decoration: none;
+		color: black;
+	}
+
+
+	a:visited {
+		text-decoration: none;
+		color: black;
+	}
+
+
+	a:hover {
+		text-decoration: none;
+		color: black;
+
+
+	}
+
+
+	a:active {
+		text-decoration: none;
+		color: black;
+
+
+	}
