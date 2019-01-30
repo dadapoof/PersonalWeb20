@@ -1,35 +1,54 @@
 body {
 		color: black;
 		font-family: 'Montserrat', sans-serif;
-		background-color: white;
+		background-color: #F0F0F0;
 		margin: 0px;
-
 	}
 
 
-	.title {
-
-
-		font-size: 35px;
-		color: black;
+	#title {
 		font-family: 'Montserrat', sans-serif;
 		display: flex;
 		justify-content: center;
 		flex-direction: row;
-		height: 100px;
-
+		height: 20px;
+		font-size: 40px;
+		color: black;
 	}
 
+	#status {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		font-size: 20px;
+		font-weight: bold;
+		color: #80c1ff;
+		margin: 0px;
+	}
+
+    #picture {
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15%;
+    }
+
+	.top h5 {
+		display: flex;
+		justify-content: center;
+		flex-direction: row;
+		font-size: 16px;
+        font-style: italic;
+		color: #80c1ff;
+		margin: 0px;
+	}
 
 	.header ul {
-
-
 		display: flex;
 		font-family: 'Montserrat', sans-serif;
 		font-size: 18px;
 		justify-content: center;
-
-
 	}
 
 	
@@ -38,8 +57,8 @@ body {
 	}
 
 	.footer {
-		margin-left: 10px;
-		margin-top: 0px;
+        display: flex;
+        justify-content: center;
 	}
 
 
@@ -81,12 +100,6 @@ body {
 		opacity: 0.4;
 	}
 
-
-	.facebook {
-		font-size: 100%;
-	}
-
-
 	.linkedin {
 		font-size: 100%;
 	}
@@ -96,6 +109,10 @@ body {
 		font-size: 100%;
 	}
 
+    .blog {
+        font-size: 100%;
+    }
+
 
 	#home {
 		display: inline-flex;
@@ -104,13 +121,19 @@ body {
 
 
 	#home a {
-		color: #0CD3C9;
+		color: #80c1ff;
 	}
 
 
 	#home:hover a {
 		color: black;
 	}
+
+    #copyright {
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+    }
 
 
 	li {
@@ -128,7 +151,7 @@ body {
 
 
 	li:hover {
-		background-color: #0CD3C9;
+		background-color: #80c1ff;
 	}
 
 
