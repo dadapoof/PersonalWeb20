@@ -1,194 +1,135 @@
 body {
-		color: black;
-		font-family: 'Montserrat', sans-serif;
-		background-color: white;
-		margin: 0px;
-
-
-	}
-
-
-
-
-	.title {
-
-
-		font-size: 35px;
-		color: black;
-		font-family: 'Montserrat', sans-serif;
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		height: 100px;
-
-
-	}
-
-
-
-
-	.header ul {
-
-
-		display: flex;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		justify-content: center;
-
-
-	}
-
-
-	.Download {
-		text-align: center;
-	}
-
-
-	.Download a {
-		padding: 5px;
-		border: 2px solid black;
-		border-radius: 15px;
-		font-size: 30px;
-
-
-	}
-
-
-	.Download a:hover {
-		color: black;
-		background-color: white;
-	}
-
-
-	.Download h3 {
-		font-size: 20px;
-		margin-left: 20px;
-		padding-top: 20px;
-		padding-bottom: 100px;
-		text-align: center;
-	}
-
-
-
-
-	.footer {
-		margin-top: 150px;
-		border-top: 2px solid white;
-		padding-left: 10px;
-	}
-
-
-	.other-websites h2 {
-		font-size: 30px;
-	}
-
-
-	.other-websites a {
-		font-size: 14px;
-	}
-
-
-	.grow a {
-		-webkit-transition: font-size 0.01s;
-		-ms-transition: font-size 0.01s;
-		-moz-transition: font-size 0.01s;
-		opacity: 0.9;
-	}
-
-
-	.grow a:hover {
-		font-size: 16px;
-	}
-
-
-	.social-media {
-		padding-top: 20px;
-		display: flex;
-	}
-
-
-	.social-media img {
-		padding-right: 10px;
-	}
-
-
-	.social-media img:hover {
-		opacity: 0.4;
-	}
-
-
-	.facebook {
-		font-size: 100%;
-	}
-
-
-	.linkedin {
-		font-size: 100%;
-	}
-
-
-	.github {
-		font-size: 100%;
-	}
-
-
-	#resume {
-		display: inline-flex;
-		border-color: black;
-	}
-
-
-	#resume a {
-		color: black;
-	}
-
-
-	#resume:hover a {
-		color: black;
-	}
-
-
-	li {
-		display: inline-flex;
-		padding-left: 25px;
-		padding-right: 25px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin-bottom: 40px;
-		border: 2px;
-		border-style: solid;
-		border-color: black;
-		color: black;
-	}
-
-
-	li:hover {
-		background-color: #0CD3C9;
-	}
-
-
-	a:link {
-		text-decoration: none;
-		color: black;
-	}
-
-
-	a:visited {
-		text-decoration: none;
-		color: black;
-	}
-
-
-	a:hover {
-		text-decoration: none;
-		color: black;
-
-
-	}
-
-
-	a:active {
-		text-decoration: none;
-		color: black;
-
-	}
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F0;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.sidenav a {
+    position: absolute;
+    left: -130px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    opacity: 0.6;
+}
+
+.sidenav a:hover {
+    left: 0;
+    opacity: 1;
+}
+
+.top h2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 20px;
+    font-size: 40px;
+    color: black;
+}
+
+.top h5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 16px;
+    font-style: italic;
+    color: #80c1ff;
+    margin: 0px;
+}
+
+.Download {
+    text-align: center;
+}
+
+.Download h3 {
+    font-size: 20px;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.Download a {
+    padding: 5px;
+    border: 2px solid #80c1ff;
+    border-radius: 15px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #80c1ff;
+}
+
+.Download a:hover {
+    color: black;
+    background-color: #80c1ff;
+}
+
+.Download a:active {
+    color: #80c1ff;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.social-media {
+    padding-top: 20px;
+    display: flex;
+}
+
+.social-media img {
+    padding-right: 10px;
+}
+
+.social-media img:hover {
+    opacity: 0.4;
+}
+
+.linkedin {
+    font-size: 100%;
+}
+
+.github {
+    font-size: 100%;
+}
+
+.blog {
+    font-size: 100%;
+}
+
+#copyright {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
+
+#picture {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+#bio {
+    top: 116px;
+    background-color: #4da8ff;
+    color: black;
+}
+
+#resume {
+    top: 20px;
+    background-color: #b3daff;
+    color: black
+}
+
+#home {
+    top: 68px;
+    background-color: #80c1ff;
+    color: black;
+}
