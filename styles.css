@@ -1,183 +1,70 @@
 body {
-		color: black;
-		font-family: 'Montserrat', sans-serif;
-		background-color: #F0F0F0;
-		margin: 0px;
-	}
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #F0F0F0;
+    margin: 0px;
+}
 
+.top h2 {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 20px;
+    font-size: 40px;
+    color: black;
+}
 
-	#title {
-		font-family: 'Montserrat', sans-serif;
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		height: 20px;
-		font-size: 40px;
-		color: black;
-	}
+#picture {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
 
-	#status {
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		font-size: 20px;
-		font-weight: bold;
-		color: #80c1ff;
-		margin: 0px;
-	}
+.top h5 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 16px;
+    font-style: italic;
+    color: #80c1ff;
+    margin: 0px;
+}
 
-    #picture {
-        border-radius: 50%;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 15%;
-    }
+.footer {
+    display: flex;
+    justify-content: center;
+}
 
-	.top h5 {
-		display: flex;
-		justify-content: center;
-		flex-direction: row;
-		font-size: 16px;
-        font-style: italic;
-		color: #80c1ff;
-		margin: 0px;
-	}
+.social-media {
+    padding-top: 20px;
+    display: flex;
+}
 
-	.header ul {
-		display: flex;
-		font-family: 'Montserrat', sans-serif;
-		font-size: 18px;
-		justify-content: center;
-	}
+.social-media img {
+    padding-right: 10px;
+}
 
-	
-	#blog {
-		text-decoration: underline;
-	}
+.social-media img:hover {
+    opacity: 0.4;
+}
 
-	.footer {
-        display: flex;
-        justify-content: center;
-	}
+.linkedin {
+    font-size: 100%;
+}
 
+.github {
+    font-size: 100%;
+}
 
-	.other-websites h2 {
-		font-size: 30px;
-	}
+.blog {
+    font-size: 100%;
+}
 
-
-	.other-websites a {
-		font-size: 14px;
-	}
-
-
-	.grow a {
-		-webkit-transition: font-size 0.01s;
-		-ms-transition: font-size 0.01s;
-		-moz-transition: font-size 0.01s;
-		opacity: 0.9;
-	}
-
-
-	.grow a:hover {
-		font-size: 16px;
-	}
-
-
-	.social-media {
-		padding-top: 20px;
-		display: flex;
-	}
-
-
-	.social-media img {
-		padding-right: 10px;
-	}
-
-
-	.social-media img:hover {
-		opacity: 0.4;
-	}
-
-	.linkedin {
-		font-size: 100%;
-	}
-
-
-	.github {
-		font-size: 100%;
-	}
-
-    .blog {
-        font-size: 100%;
-    }
-
-
-	#home {
-		display: inline-flex;
-		border-color: black;
-	}
-
-
-	#home a {
-		color: #80c1ff;
-	}
-
-
-	#home:hover a {
-		color: black;
-	}
-
-    #copyright {
-        position: fixed;
-        bottom: 0px;
-        right: 10px;
-    }
-
-
-	li {
-		display: inline-flex;
-		padding-left: 25px;
-		padding-right: 25px;
-		padding-top: 15px;
-		padding-bottom: 15px;
-		margin-bottom: 40px;
-		border: 2px;
-		border-style: solid;
-		border-color: black;
-		color: black;
-	}
-
-
-	li:hover {
-		background-color: #80c1ff;
-	}
-
-
-	a:link {
-		text-decoration: none;
-		color: black;
-	}
-
-
-	a:visited {
-		text-decoration: none;
-		color: black;
-	}
-
-
-	a:hover {
-		text-decoration: none;
-		color: black;
-
-
-	}
-
-
-	a:active {
-		text-decoration: none;
-		color: black;
-
-
-	}
+#copyright {
+    position: fixed;
+    bottom: 0px;
+    right: 10px;
+}
