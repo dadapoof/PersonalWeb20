@@ -3,6 +3,23 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: #F0F0F0;
     margin: 0px;
+    overflow: hidden;
+}
+
+.sidenav a {
+    position: absolute;
+    left: -130px;
+    transition: 0.5s;
+    padding: 15px;
+    width: 150px;
+    text-decoration: none;
+    border-radius: 0 5px 5px 0;
+    opacity: 0.6;
+}
+
+.sidenav a:hover {
+    left: 0;
+    opacity: 1;
 }
 
 .top h2 {
@@ -13,14 +30,6 @@ body {
     height: 20px;
     font-size: 40px;
     color: black;
-}
-
-#picture {
-    border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 15%;
 }
 
 .top h5 {
@@ -67,4 +76,30 @@ body {
     position: fixed;
     bottom: 0px;
     right: 10px;
+}
+
+#picture {
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15%;
+}
+
+#bio {
+    top: 68px;
+    background-color: #80c1ff;
+    color: black;
+}
+
+#resume {
+    top: 116px;
+    background-color: #4da8ff;
+    color: black;
+}
+
+#home {
+    top: 20px;
+    background-color: #b3daff;
+    color: black
 }
